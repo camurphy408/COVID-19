@@ -147,10 +147,10 @@ def plotLatData():
 def main():
 
     pullCovidData()
-    # pullTempData()
-    # tempAnalysis()
-    # aggregateTempData()
-    # plotTempData()
+    pullTempData()
+    tempAnalysis()
+    aggregateTempData()
+    plotTempData()
     latitudeAnalysis()
     plotLatData()
 
