@@ -1,4 +1,4 @@
-# Script for generating bar graphs and scatterplots, with x-axis corresponding to GDP per capita and y-axis corresponding to proportion of population diagnosed with coronavirus.
+# Script for generating a scatterplot with x-axis corresponding to GDP per capita and y-axis corresponding to proportion of population diagnosed with coronavirus.
 # Created by Claire Murphy, 3/30/20
 
 import pandas as pd
