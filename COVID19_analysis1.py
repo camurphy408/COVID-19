@@ -6,7 +6,7 @@ import plotly.express as px
 import country_converter as coco
 
 
-# Pulls an updated lost of COVID-19 cases from JHU CSSE repo
+# Pulls an updated list of COVID-19 cases from JHU CSSE repo
 def pullCovidData():
 
     print("Pulling COVID-19 data from the web...")
