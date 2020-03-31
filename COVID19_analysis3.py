@@ -78,7 +78,7 @@ def fillDataFrame():
         # Calculating proportion of population diagnosed with COVID-19
         countryData.at[ind, "density"] = float(countryData.at[ind, "numCases"]) / pop
 
-        # Addding GDP
+        # Adding GDP
         GDP_url = "http://api.worldbank.org/v2/country/" + ISO.lower() + "/indicator/NY.GDP.MKTP.CD?date=2016&format=json"
         GDP_response = requests.get(GDP_url)
         GDP_json = json.loads(GDP_response.text)
